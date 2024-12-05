@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class Hurtbox : Area2D
+public partial class Hurtbox : Area2D
 {
     [Export]
     private Vector2 HitEffectOffset = Vector2.Zero;
@@ -39,7 +39,7 @@ public class Hurtbox : Area2D
     {     
         if (this.ShowHitEffect)
         {
-            var animatedSprite = (Effect)this.hitEffect.Instance();
+            var animatedSprite = (Effect)this.hitEffect.Instantiate();
             animatedSprite.GlobalPosition = this.GlobalPosition + HitEffectOffset;
             this.GetTree().CurrentScene.AddChild(animatedSprite);
         }

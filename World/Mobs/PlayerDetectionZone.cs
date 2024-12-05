@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class PlayerDetectionZone : Area2D
+public partial class PlayerDetectionZone : Area2D
 {
     public Player Player;
 

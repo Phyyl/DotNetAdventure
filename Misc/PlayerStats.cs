@@ -1,6 +1,6 @@
 using Godot;
 using System;
 
-public class PlayerStats : Stats
+public partial class PlayerStats : Stats
 {
 }

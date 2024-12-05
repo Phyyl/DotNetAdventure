@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class HUD : CanvasLayer
+public partial class HUD : CanvasLayer
 {
     TextureRect heartBg;
     TextureRect heartFg;

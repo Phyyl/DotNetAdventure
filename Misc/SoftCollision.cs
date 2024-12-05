@@ -2,7 +2,7 @@ using Godot;
 using System;
 using System.Linq;
 
-public class SoftCollision : Area2D
+public partial class SoftCollision : Area2D
 {
     public override void _Ready()
     {

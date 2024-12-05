@@ -1,19 +1,19 @@
 using Godot;
 using System;
 
-public class Stats : Node
+public partial class Stats : Node
 {
     [Signal]
-    public delegate void ZeroHp();
-    public event ZeroHp OnZeroHp;
+    public delegate void ZeroHpEventHandler();
+    public event ZeroHpEventHandler OnZeroHp;
 
     [Signal]
-    public delegate void HpChanged();
-    public event HpChanged OnHpChanged;
+    public delegate void HpChangedEventHandler();
+    public event HpChangedEventHandler OnHpChanged;
 
     [Signal]
-    public delegate void MaxHpChanged();
-    public event MaxHpChanged OnMaxHpChanged;
+    public delegate void MaxHpChangedEventHandler();
+    public event MaxHpChangedEventHandler OnMaxHpChanged;
 
     [Export]
     private int maxHP = 1;

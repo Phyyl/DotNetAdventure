@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Pause.wav-8093e723f13b8ff047287cdfba5348dd.sample"
+type="AudioStreamWAV"
+uid="uid://k60ltvshaqw1"
+path="res://.godot/imported/Pause.wav-8093e723f13b8ff047287cdfba5348dd.sample"
 
 [deps]
 
 source_file="res://Assets/Action RPG Resources/Music and Sounds/Pause.wav"
-dest_files=[ "res://.import/Pause.wav-8093e723f13b8ff047287cdfba5348dd.sample" ]
+dest_files=["res://.godot/imported/Pause.wav-8093e723f13b8ff047287cdfba5348dd.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0
